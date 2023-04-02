@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Headland+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
 
     <link
       rel="stylesheet"
@@ -16,159 +19,190 @@
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-     />
+      />
     <title>Document</title>
 </head>
 <body>
   <header class="header">
     <nav>
-      <img src="./images/назва 1.png" alt="логотип">
+      <img class="logo" src="./images/назва 1.png" alt="логотип">
     </nav>
 
-    <nav>
-      <span>UA</span>
-    </nav>
-    <div class="switch__container">
 
-      <input
-        id="switch-shadow"
-        class="switch switch--shadow"
-        type="checkbox"
-      />
-      <label for="switch-shadow"></label>
+    <div class="switch-lang">
+      <span class="langUA">UA</span>
+      <div class="switch__container">
+        <input
+          id="switch-shadow"
+          class="switch switch--shadow"
+          type="checkbox"
+        />
+        <label for="switch-shadow"></label>
+      </div>
+      <span class="langEN">ENG</span>
     </div>
+  </header>
 
-        <nav class="logo">
-            <a href="./index.html">
-              
-            </a>
-        </nav>
-      </header>
         <main>
-        <section class="hero">
-  
-      <div class="hero__container">
-      <img  class="hero" src="./images/фон 1 опт.jpg" alt="">\
-      <img class="hero__container" src="./images/перелив.png" alt="">
-      <div class="hero__text">
-          <p>
+      <section class="container hero">
+      <div class="blur">
+        <div class="flex">
+          <div>
+          <p class="hero-text">
             Oe perlltxe hu tsamsiyu!
             Ngari hu Eywa salew tirea, 
             tokx 'ì'awn slu Na'viyä hapxì.
             Säwem nìayoeng!
           </p>
-          </div>
-
-          <div class="hero__text1">
-            <p>
+          <img class="white-arrow" src="./images/white arrow.png" alt="">
+            <p class="hero-text1">
               Хоробрий воїне, звертаюсь до тебе!
               Твій дух йде з Ейвою, 
               твоє тіло залишається, 
               щоб стати частиною Народу.
               Борись разом з нами!
             </p>
+            
+              <button class="button" href="" type=""><span class="button-text">Приєднатися до клану</span></button>
             </div>
-              <button class="button" href="./aindex.html" type=""> Приєднатися до клану</button>
-        <ul>
-            <li>
+            
+               <div>
+            <ul>
+            <li class="bed">
               <a href="#" class="social-link">
                 <svg class="social-icon">
-                  <use href="./images/instagram.png"></use>
+                  <use href="./images/symbol-defs (4).svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="bed">
               <a href="#" class="social-link">
                 <svg class="social-icon">
-                  <use href="./images/twitter.png"></use>
+                  <use href="./images/symbol-defs (4).svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="bed">
               <a href="#" class="social-link">
                 <svg class="social-icon">
-                  <use href="./images/youtube.png"></use>
+                  <use href="./images/symbol-defs (4).svg#icon-youtube"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
+      </div>
+      </div>
+      <img class="avatar" src="./images/аватар 1.png" alt="">
           </section>
 
-          <img class="picture1" src="./images/white background.opt.jpg" alt="">
           <section class="sentance1">
-          <h3>"БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ"</h3>
-          <p>Джейк Саллі</p>
+          <p class="word1"> "БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ</p>
+           <p class="word2">  ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ"</p>
+          <p class="name1">Джейк Саллі</p>
           <img class="picture2" src="./images/Rectangle 8.png" alt="">
         </section>
 
-        <section class="">
-          <img src="./images/аватар2.png" alt="">
-          <button>Дивитись трейлер</button>
+        <section class="trailer">
+          <button class="button2"> <span class="button2-text">Дивитись трейлер</span> </button>
         </section>
 
-        <!-- <img class="picture3" src="./images/white background.opt.jpg" alt=""> -->
         <section class="sentance2">
-          <h3>“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ</h3>
-          <h3>ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</h3>
-          <p>Джейк Саллі</p>
-          <img class="picture4" src="./images/Rectangle 8.png" alt="">
+         <p class="word3"> “ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ</p>
+          <p class="word4"> ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</p>
+          <p class="name2">Джейк Саллі</p>
+          <img class="picture2" src="./images/Rectangle 8.png" alt="">
         </section>
 
-        <section class="language">
-          <div class="box"></div>
+      <section class="phrases">
+        <h2 class="language_heading">Вчимо мову На’ві</h2>
+        <div class="language-box">
           <ul class="language-list">
             <li class="language-list__item">
-              <p></p>
-              <img src="" alt="">
-              <p></p>
+              <div class="box">
+                <p class="text">Привіт</p>
+                <img src="./images/стрілка вліво.png" alt="" class="img" />
+                <p class="textbottom">Kaltxì</p>
+              </div>
             </li>
             <li class="language-list__item">
-              <p></p>
-              <img src="" alt="">
-              <p></p>
+              <div class="box">
+                <p class="text">Як справи?</p>
+                <img src="./images/Rectangle 8 зменшена копія.png" alt="" class="img" />
+                <p class="textbottom">Ngaru lu fpom srak?</p>
+              </div>
             </li>
             <li class="language-list__item">
-              <p></p>
-              <img src="" alt="">
-              <p></p>
+              <div class="box">
+                <p class="text">Все добре</p>
+                <img src="./images/стрілка вправо.png" alt="" class="img" />
+                <p class="textbottom">Lu fpom</p>
+              </div>
             </li>
             <li class="language-list__item">
-              <p></p>
-              <img src="" alt="">
-              <p></p>
+              <div class="box">
+                <p class="text">Дякую</p>
+                <img src="./images/стрілка вліво.png" alt="" class="img" />
+                <p class="textbottom">Irayo si</p>
+              </div>
             </li>
             <li class="language-list__item">
-              <p></p>
-              <img src="" alt="">
-              <p></p>
+              <div class="box">
+                <p class="text">Я бачу тебе</p>
+                <img src="./images/Rectangle 8 зменшена копія.png" alt="" class="img" />
+                <p class="textbottom">Oel ngati kameie</p>
+              </div>
             </li>
             <li class="language-list__item">
-              <p></p>
-              <img src="" alt="">
-              <p></p>
+              <div class="box">
+                <p class="text">Слідуй за мною!</p>
+                <img src="./images/стрілка вправо.png" alt="" class="img" />
+                <p class="textbottom">Nong oet!</p>
+              </div>
             </li>
           </ul>
-        </section>
+        </div>
+      </section>
         
-        <section>
-          <h3>“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</h3>
-           <p>Джейк Саллі </p>
-           <img class="" src="./images/Rectangle 8.png" alt="">
-        </section>
-        <section>
-          <img src="./images/під водою.png" alt="">
+        <section class="sentance3">
+           <p class="word5">“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,</p>
+          <p class="word6">ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</p>
+           <p class="name3">Нейріті </p>
+           <img class="picture2" src="./images/Rectangle 8.png" alt="">
         </section>
         </main>
-    <form>
-      <label for="input">Ім'я</label>
+        <footer class="last_picture">
+        </footer>
 
-      <input type="text" id="Name" placeholder="type name">
-
-      <label for="input">Email</label>
-
-      <input type="text" id="Email" placeholder="type email">
-    </form>
-
+        <div class="backdrop">
+          <div class="modal">
+            <button class="modal-close">
+              <svg class="icon-close">
+                <use href="./images/symbol-defs (4).svg#icon-cross"></use>
+              </svg>
+            </button>
+            <form class="form">
+              <div class="input-container">
+                <label class="form-label">
+                  <span class="label-text">Ім’я</span>
+                  <input class="form-input" type="text" />
+                </label>
+                <label class="form-label">
+                  <span class="label-text">Email</span>
+                  <span class="input-wrap">
+                    <input class="form-input" type="text" />
+                    <svg class="envelop">
+                      <use href="./images/symbol-defs (4).svg#icon-mail2"></use>
+                    </svg>
+                  </span>
+                </label>
+              </div>
+              <button class="modal-button" type="submit">
+                <span class="button__text">Приєднатися до клану</span>
+              </button>
+            </form>
+          </div>
+        </div>
+       <script src="./index.js"></script>
 </body>
 </html>
